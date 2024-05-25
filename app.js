@@ -32,10 +32,14 @@ app.get('/movies/', async (request, respond) => {
   await respond.send(
     dbData.map(eachMovie => ({
 <<<<<<< HEAD
+<<<<<<< HEAD
       movieName: eachMovie.movie_name,
 =======
        movieName : eachMovie.movie_name,
 >>>>>>> one test case failing
+=======
+      movieName: eachMovie.movie_name,
+>>>>>>> only one test case failing
     })),
   )
 })
